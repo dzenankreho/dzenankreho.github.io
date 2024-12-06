@@ -111,11 +111,14 @@ header {
         .logo-holder {
             display: flex;
             padding: 10px;
-            padding-left: 0;
-            align-items: left;
+            padding-left: 0px;
             font-weight: 500;
             font-size: 30px;
         
+            @media (max-width: 1100px){
+                padding-left: 10px;
+            }
+
             .logo-text {
                 background-image: var(--logo-gradient);
                 color: transparent;
@@ -319,6 +322,7 @@ header {
             justify-content: center;
             align-content: center;
             align-items: center;
+            justify-items: center;
 
             nav {
                 margin-top: 10px;
