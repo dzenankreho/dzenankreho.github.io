@@ -464,8 +464,10 @@ section {
                     }
                 }
 
-                svg:hover {
-                    scale: 130%;
+                @media (max-width: 450px) {
+                    svg:hover {
+                        scale: 100%;
+                    }
                 }
             }
         }
@@ -819,9 +821,11 @@ html.dark-mode .experience-container {
 
             .link:hover {
                 scale: 130%;
+            }
 
-                @media (max-width: 450px) {
-                    scale: 117%;
+            @media (max-width: 450px) {
+                .link:hover {
+                    scale: 90%;
                 }
             }
         }
