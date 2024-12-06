@@ -468,6 +468,10 @@ section {
                     }
                 }
 
+                svg:hover {
+                    scale: 130%;
+                }
+
                 @media (max-width: 450px) {
                     svg:hover {
                         scale: 100%;
