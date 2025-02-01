@@ -573,6 +573,15 @@ html.dark-mode .about-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    
+    min-width: 400px;
+    max-width: 1000px;
+    width: 100%;
+
+    @media (max-width: 450px) {
+        min-width: 90vw;
+        max-width: 90vw;
+    }
 
     .education-container {
         min-width: 400px;
